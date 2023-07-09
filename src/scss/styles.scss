@@ -2,6 +2,9 @@
 $primary: #536DFE;
 @import "bootstrap";
 
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
+
 html,
 body {
     height: 100%;
@@ -9,4 +12,15 @@ body {
 
 [data-bs-theme="dark"] {
     --bs-body-color: var(--bs-white);
+}
+
+.font-nunito {
+    font-family: 'Nunito';
+}
+
+// main page
+.hero-container {
+    background-color: $primary;
+    margin: 38px;
+    border-radius: 32px;
 }
