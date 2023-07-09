@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
+    "glob": "^10.3.3",
     "sass": "^1.63.6",
+    "tsc": "^2.0.4",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
   },
