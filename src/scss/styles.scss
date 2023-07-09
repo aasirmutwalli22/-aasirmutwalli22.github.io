@@ -1,0 +1,12 @@
+// Import all of Bootstrap's CSS
+$primary: #536DFE;
+@import "bootstrap";
+
+html,
+body {
+    height: 100%;
+}
+
+[data-bs-theme="dark"] {
+    --bs-body-color: var(--bs-white);
+}
