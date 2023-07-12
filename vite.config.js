@@ -9,7 +9,7 @@ export default defineConfig({
         hot: true
     },
     build: {
-        outDir: path.resolve(__dirname, 'dist'),
+        outDir: path.resolve(__dirname, 'docs'),
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'src/index.html')
