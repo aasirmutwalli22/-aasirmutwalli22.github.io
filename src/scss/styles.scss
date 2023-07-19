@@ -18,9 +18,15 @@ body {
     font-family: 'Nunito';
 }
 
-// main page
-.hero-container {
-    background-color: $primary;
-    margin: 38px;
-    border-radius: 32px;
+#hero-section {
+    background-color: #212121;
+    opacity: 1;
+    background-image: radial-gradient(#424242 0.8px, transparent 0.8px), radial-gradient(#424242 0.8px, #212121 0.8px);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
+
+    .hero-container {
+        margin: 38px;
+    }
+
 }
